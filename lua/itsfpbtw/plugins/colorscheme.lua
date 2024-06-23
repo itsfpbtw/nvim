@@ -1,10 +1,10 @@
 return {
-    'bluz71/vim-moonfly-colors',
-    name = 'moonfly',
+    'rose-pine/neovim',
+    name = 'rose-pine',
     lazy = false,
     priority = 1000,
     opts = {},
     config = function()
-        vim.cmd 'colorscheme moonfly'
+        vim.cmd 'colorscheme rose-pine'
     end,
 }
